@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mariusz Pudzianowski</title>
+	<meta name="author" content="Kacper Ceszke, Jakub Hirsch">
+    <link rel="stylesheet" href="https://css-tricks.com/snippets/css/meyer-reset/">
+	<link rel="stylesheet" type="text/css" href="css2.css"> 
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <audio id="myAudio">
+        <source src="polskagurom.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="myAudio2">
+        <source src="polska%20guro%202.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="myAudio3">
+        <source src="polska%20guro%203.mp3" type="audio/mpeg">
+    </audio>
+    
+    <div class="wrapper" id="scrol4">
+        <div class="video-section">
+            <div class="nav" >
+                <ol>
+                    <a href="#scrol2"><li class="le">Porady</li></a>
+                    <a href="#scrol1"><li>Rekordy</li></a>
+                    <a href="#scrol3"><li>Galeria</li></a>
+                </ol>
+            </div>
+            
+            <div class="logo">
+                <img src="strongest2.jpg" width="250px" height="250px" style="border-radius:50%; border-style: solid;">
+            </div>
+            
+            <div class="profil">
+                <p>Mariusz Pudzianowski to polski zawodnik mieszanych sztuk walki (MMA), wcześniej utytułowany strongman i rugbysta. Ośmiokrotny Mistrz Polski Strongman. 
+                    Sześciokrotny Mistrz Europy Strongman. Pięciokrotny Mistrz Świata Strongman w latach. 
+                    Trzykrotny drużynowy Mistrz Świata Par Strongman w latach. Mistrz Super Serii w sezonach. Zwycięzca i finalista wielu innych zawodów siłaczy.
+                    Mariusz Pudzianowski jest synem sztangisty, Wojciecha Pudzianowskiego, który był jego pierwszym trenerem sportów siłowych. Trenował karate kyokushin 
+                    (obecnie posiada 4 kyu), rugby oraz boks (jednak przed 11 grudnia 2009 r. nie stoczył żadnej oficjalnej walki).
+                    </p>
+            </div>
+            
+            <div class="trojeczka">
+                <p class="powiedzenie">Ulubione powiedzenie pudziana to "POLSKA GÓRĄ":</p>
+                    <div class="krzyk">
+                        <img src="pudziankrzyk.png" height="200" width="150" onclick="playAudio()" onmouseover="hover(this)" onmouseout="unhover(this);">
+                        <p>2004 r. Arnold Strongman</p>
+                    </div>
+                    <div class="krzyk" style="margin-left: 70px;">
+                        <img src="pudziankrzyk.png" height="200" width="150" onclick="playAudio2()" onmouseover="hover(this)" onmouseout="unhover(this);">
+                        <p >2005 r. Super Seria</p>
+                    </div>
+                    <div class="krzyk" style="margin-left: 85px;">
+                        <img src="pudziankrzyk.png" height="200" width="150" onclick="playAudio3()" onmouseover="hover(this)" onmouseout="unhover(this);">
+                        <p >2003 r. Super Seria Hawaje</p>
+                    </div>
+            </div>
+                
+            
+            <div class="czworeczka" id="scrol1">
+                <div>
+                    <p class="h">Przysiad ze sztangą</p>
+                    <img src="animacje/barbell squat.gif">
+                    <p>390 kg</p>  
+                </div>
+                <div>
+                    <p class="h">Martwy ciąg</p>
+                    <img src="animacje/deadlift.gif"> 
+                    <p>415 kg</p>  
+                </div>
+                <div>
+                    <p class="h">Wyciskanie leżąc</p>
+                    <img src="animacje/bench press.gif">  
+                    <p>295 kg</p> 
+                </div>
+            </div>
+            
+            <div class="piateczka" id="scrol2">
+                <video muted width="1000" height="600" controls poster="titlescreen.png">
+                    <source src="radapudziana.mp4" type="video/mp4">
+                </video>
+            </div> 
+            
+            <div class="szosteczka" id="scrol3">
+                <div class="mySlides fade">
+                    <img src="pudzian1.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="pudzian2.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="pudzian3.jpg" style="width:100%">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+
+            <div class="siodemeczka">
+                <p>Kuba i Kacper krzyczą Polska górą</p>
+                <audio controls><source src="cosplayKacper.mp3" type="audio/mpeg"></audio>
+                <audio controls style="margin-left:150px;"><source src="cosplayKuba.mp3" type="audio/mpeg"></audio>
+            </div>
+            <div class="color-overlay">
+                <video autoplay loop muted>
+                    <source src="polskagurom3.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="powrot">
+            <a href="#scrol4"><img src="arrow.png" width="40" height="40"></a>
+        </div>
+    </div>
+    <footer>
+        <div class="social-wrapper">
+            <ul>
+                <li>
+                    <a href="https://twitter.com/pudzianofficial" target="blank">
+                        <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" alt="Twitter Logo" class="twitter-icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/pudzianofficial/?hl=pl" target="_blank">
+                        <img src="https://www.mchenryvillage.com/images/instagram-icon.png" alt="Instagram Logo" class="instagram-icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/pudzianowski.official" target="_blank">
+                        <img src="http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico" alt="Facebook Logo" class="facebook-icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCllH9nBUafJYX08g0CDQ8vg" target="_blank">
+                        <img src="https://lh3.googleusercontent.com/j_RwVcM9d47aBDW5DS1VkdxUYCkDUCB6wZglv4x-9SmsxO0VaFs7Csh-FmKRCWz9r_Ef=w170" alt="Youtube Logo" class="youtube-icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <nav class="footer-nav" role="navigation">
+            <p>Copyright &copy; 2021 - Kacper i Jakub. All rights reserved.</p>
+        </nav>
+    </footer>
+    <script>
+        var x = document.getElementById("myAudio"); 
+        var y = document.getElementById("myAudio2"); 
+        var z = document.getElementById("myAudio3"); 
+
+        function playAudio() { 
+            x.play(); 
+        }         
+        function playAudio2() { 
+            y.play(); 
+        }         
+        function playAudio3() { 
+            z.play(); 
+        } 
+        function hover(element) {
+            element.setAttribute('src', 'pudzianotwarta.png');
+        }
+
+        function unhover(element) {
+            element.setAttribute('src', 'pudziankrzyk.png');
+        }
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        }
+    </script>
+</body>
+</html>

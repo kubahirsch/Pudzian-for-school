@@ -1,0 +1,298 @@
+html, footer{
+    cursor: url(cursorhand.png), auto;
+    scroll-behavior: smooth;
+    font-family: myFirstFont;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Muscle-Narrow.otf);
+}
+
+  
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+
+.video-section {
+    position: relative;
+    width: 100%;
+    height: 3350px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.video-section h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Cookie";
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    position:absolute;
+    top: 530px;
+}
+
+.color-overlay {
+    position:fixed;
+    top: 0;
+    left: 0;
+    background-color: lightgray;
+    width: 100%;
+    height: 100%;
+    z-index:0.5;
+    opacity: 0.8;
+}
+
+.nav { 
+    top: 25px;
+    width: 100%;
+	text-align: center;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+ol {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 40px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}
+
+ol li {
+    padding-bottom: 20px;
+	float: left;
+	width: 250px;
+	height: 90px;
+    border-right: solid;
+}
+
+.le {
+	border-left: solid;
+}
+
+ol li:hover {
+    cursor: url(cursorhand.png), auto;
+	background-color: #424344;
+}
+
+a{
+    color: inherit;
+}
+
+.logo {
+    top: 150px;
+    position: absolute;
+    z-index: 2;
+}
+
+.profil {
+    background-color: lightgrey;
+    opacity: 80%;
+    width: 1000px;
+    height: 350px;
+    border-radius: 50px;
+    border-style: solid;
+    top: 250px;
+    position: absolute;
+    font-size: 21px;
+    z-index: 1;
+    padding: 20px;
+    padding-top: 170px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.trojeczka {
+    text-align: center;
+    top: 875px;
+    position: absolute;
+    z-index: 1;
+    justify-content:center;
+}
+
+.krzyk{
+    display: inline-block;
+    text-align: center;
+    padding:20px;
+}
+
+.powiedzenie{
+    font-size: 37px;
+}
+
+
+.trojeczka img:hover{
+    cursor: url(cursorhand.png), auto;
+    transform: scale(1.1);
+    
+}
+
+.czworeczka { 
+    top:1950px;
+    position: absolute;
+    z-index:1;
+    height: 500px;
+    width: 1000px;
+    
+    background-color:white;
+    opacity:80%;
+    text-align: center;
+    
+}
+.czworeczka div{
+    text-align: center;
+    display: inline-block;
+}
+
+.czworeczka img{
+    width: 300px;
+    height: 300px;
+}
+
+.czworeczka p{
+    font-size: 40px;
+}
+
+.czworeczka .h{
+    font-size: 20px;
+}
+.piateczka {
+    top:1300px;
+    position: absolute;
+    z-index:1;
+    height: 600px;
+    width: 1000px;
+}
+
+.szosteczka {
+    top:2550px;
+    position: absolute;
+    z-index:1;
+    height: 600px;
+    width: 1000px;
+    max-width: 1000px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+.siodemeczka{
+    top:3150px;
+    position: absolute;
+    z-index:3;
+    text-align: center;
+    font-size: 40px;
+}
+
+.powrot{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    z-index:3;
+}
+
+footer {
+    position:absolute;
+    background-color:lightgray;
+    width:100%;
+    left:0;
+    top:3400px;
+    cursor: url(cursorhand.png), auto;
+}
+
+#social-wrapper {
+	text-align: center;
+}
+
+.social-wrapper {
+	text-align: center;
+    cursor: url(cursorhand.png), auto;
+}
+
+.social-wrapper ul li {
+	display: inline;
+	margin: 0 5px;
+    align-content:center;
+}
+
+.twitter-icon,
+.facebook-icon,
+.instagram-icon,
+.youtube-icon {
+	width: 40px;
+	height: 40px;
+	opacity: .6;
+	filter: alpha(opacity=60);
+    border-radius: 25px;
+}
+
+.twitter-icon:hover,
+.facebook-icon:hover,
+.instagram-icon:hover,
+.youtube-icon:hover {
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+}
+
+.footer-nav p {
+	text-align: center;
+}
+
